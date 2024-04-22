@@ -78,6 +78,8 @@ const createFavoritedButtonTemplate = () => `
 
 
 export { createRestaurantDetailTemplate, createRestaurantItemTemplate,
-  
+  createRestoReviewTemplate,
+  createFavoriteButtonTemplate,
+  createFavoritedButtonTemplate,  
 
 };
