@@ -12,7 +12,7 @@ class Hero extends HTMLElement {
       width: 100%;
       height: 400px; /* Sesuaikan dengan tinggi jumbotron yang diinginkan */
       overflow: hidden;
-      background-color:black;
+       background-img : url(../public/images/heros/hero-images_2.jpg);
     }
     
     .slide {
@@ -27,6 +27,7 @@ class Hero extends HTMLElement {
       align-items: center; /* Menengahkan horizontal */
       opacity: 0;
       transition: opacity 0.5s ease-in-out;
+      background-img : url(../public/images/heros/hero-images_2.jpg);
     }
     
     .slide.active {
@@ -39,7 +40,7 @@ class Hero extends HTMLElement {
       transform: translateY(-50%);
       width: 50px;
       height: 50px;
-      background-image: url('arrow.png'); /* Ganti 'arrow.png' dengan nama file panah Anda */
+      
       background-size: contain;
       background-repeat: no-repeat;
       cursor: pointer;
@@ -109,3 +110,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 customElements.define('hero-section', Hero);
+
